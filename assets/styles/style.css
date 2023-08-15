@@ -1,0 +1,115 @@
+body{
+    height:200px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #f99bab 20%, #C9FFBF  48%, #bba7fc 100%);
+    background-size: 300% 100%;
+    animation: gradient 10s ease infinite;
+    background-color: #70ff8d;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 8px 4px white;
+}
+#keyboard{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;  
+    background-color: rgb(220, 255, 244);
+    border: solid 1px #70ff8d;
+    margin: 80px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+} 
+#noun{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.letter{
+    background-color: #70ff8d;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.letter:hover{
+    background-color: #d145ff;
+    color: white;
+    cursor: pointer;
+}
+.space{
+    display: flex;
+    font-size: 30px;
+}
+#game{
+    display: flex;
+    justify-content:space-evenly ;
+}
+#button{
+    border-radius: 5px;
+    background-color: #70ff8d;
+    display: flex;
+    border: solid 1px white;
+    font-size: x-large;
+    font-family: cursive;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: #d145ff;
+    color: white; 
+}
+#contador{
+    border-radius: 50%;
+    border: solid 1px #ee00ff;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: large;
+}
+#counter{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#audio{
+    width: 1px;
+    height: 1px;
+}
+#images{
+    display: flex;
+    justify-content: space-evenly;
+}
+#crono{
+    display: flex;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: white; 
+}
