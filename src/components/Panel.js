@@ -6,14 +6,19 @@ class Panel{
          this.VectAnswers = [];
          this.idchoise = 0;
     }
+
+    choisePokemon(name){
+        return this.VectAnswer = Array.from(name)
+    }
+
     choiseWords(){
         this.idchoise = Math.floor(Math.random() * (this.choiseWord.length - 0) + 0)
         return this.idchoise
     }
 
     drawLines(){
-        this.VectAnswer = Array.from(this.choiseWord[this.idchoise])
-        console.log(this.VectAnswer);
+        // this.VectAnswer = Array.from(this.choiseWord[this.idchoise])
+        // console.log(this.VectAnswer);
 
         for (let index = 0; index < this.VectAnswer.length; index++) {
             this.VectAnswers[index] = '_';
